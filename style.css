@@ -90,8 +90,12 @@ section{
     z-index: 1000;
 }
 
-.header .logo img{
-    height: 6rem;
+.header .logo{
+    font-size: 4rem;
+    font-weight: 600;
+    color: white;
+    align-items: center;
+    display: flex;
 }
 
 .header .navbar a{
