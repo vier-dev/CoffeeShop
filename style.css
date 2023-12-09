@@ -222,7 +222,7 @@ section{
     min-height: 100vh;
     display: flex;
     align-items: center;
-    background: url(/CoffeeShop/images/bg.jpg);
+    background: url(./images/bg.jpg);
     background-size: cover;
     background-position: center;
 }
