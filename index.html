@@ -15,8 +15,9 @@
 </head>
 <body>
 
-    <header class="header">
+    <div class="container">
 
+        <header class="header">
         <a href="" class="logo">
             FBC
         </a>
@@ -29,66 +30,13 @@
             <a href="#contact">Contact</a>
         </nav>
 
-        <div class="icons">
-            <div class="search-btn"><i class='bx bx-search'></i></div>
-            <div class="cart-btn"><i class='bx bx-cart'></i></div>
-            <div class="menu-btn"><i class='bx bx-menu' ></i></div>
+
+          <div class="icon-cart">
+            <i class='bx bx-cart'></i>
+            <span>0</span>
         </div>
-
-        <div class="search-form">
-            <input type="text" id="search-box" placeholder="Search here...">
-            <label for="search-box"><i class='bx bx-search'></i></label>
-        </div>
-
-        <div class="cart-items-sec">
-            <div class="cart-items">
-                <span><i class='bx bx-x'></i></span>
-                <img src="./images/cart-1.jpg" alt="">
-                <div class="content">
-                    <h3>Cart Item no.1</h3>
-                    <div class="price">₱155</div>
-                </div>
-            </div>
-
-            <div class="cart-items">
-                <span><i class='bx bx-x'></i></span>
-                <img src="./images/cart-2.jpg" alt="">
-                <div class="content">
-                    <h3>Cart Item no.2</h3>
-                    <div class="price">₱81</div>
-                </div>
-            </div>
-
-            <div class="cart-items">
-                <span><i class='bx bx-x'></i></span>
-                <img src="./images/menu-4.jpg" alt="">
-                <div class="content">
-                    <h3>Cart Item no.3</h3>
-                    <div class="price">₱95</div>
-                </div>
-            </div>
-
-            <div class="cart-items">
-                <span><i class='bx bx-x'></i></span>
-                <img src="./images/menu-5.jpg" alt="">
-                <div class="content">
-                    <h3>Cart Item no.4</h3>
-                    <div class="price">₱75</div>
-                </div>
-            </div>
-
-            <div class="cart-items">
-                <span><i class='bx bx-x'></i></span>
-                <img src="./images/cart-2.jpg" alt="">
-                <div class="content">
-                    <h3>Cart Item no.5</h3>
-                    <div class="price">₱45</div>
-                </div>
-            </div>
-
-            <div class="btn">Checkout Now</div>
-        </div>
-    </header>
+        </header>
+    </div>
 
 
     <section class="home" id="home">
@@ -99,9 +47,10 @@
                 At Fresh Brewed, we're more than a coffee shop; we're a destination where coffee becomes an experience. 
                 Join us on our journey as we continue to brew joy, one cup at a time.
             </p>
-            <a href="" class="btn">Get yours now</a>
+            <a href="#menu" class="btn">Get yours now</a>
         </div>
     </section>
+
 
     <section class="about" id="about">
         <h1 class="heading"><span>About</span> Us</h1>
@@ -123,36 +72,29 @@
         </div>
     </section>
 
+
     <section class="menu" id="menu">
+
         <h1 class="heading">our <span>Menu</span> </h1>
 
-        <div class="box-container">
+        <div class="listProduct"></div>
 
-            <div class="box">
-                <img src="./images/menu-1.jpg" alt="">
-                <h3>Cappuccino</h3>
-                <div class="price">₱150.99 <span>200.99</span></div>
-                <a href="" class="btn">add to cart</a>
+        <div class="cartTab">
+            <h1>My Order</h1>
+            <div class="listCart">
+                
             </div>
-
-            <div class="box">
-                <img src="./images/menu-2.jpg" alt="">
-                <h3>americano</h3>
-                <div class="price">₱150.99 <span>200.99</span></div>
-                <a href="" class="btn">add to cart</a>
-            </div>
-
-            <div class="box">
-                <img src="./images/menu-3.jpg" alt="">
-                <h3>Matcha coffee</h3>
-                <div class="price">₱150.99 <span>200.99</span></div>
-                <a href="" class="btn">add to cart</a>
+            <div class="btnCart">
+                <button class="checkOut">Check Out</button>
+                <button class="close">CLOSE</button>
             </div>
         </div>
+
     </section>
 
+
     <section class="review" id="review">
-        <h1 class="heading">customer's <span> reviews</span></h1>
+        <h1 class="heading">customer <span> reviews</span></h1>
 
         <div class="box-container">
 
@@ -170,7 +112,7 @@
                     <i class='bx bxs-star'></i>
                     <i class='bx bxs-star'></i>
                     <i class='bx bxs-star'></i>
-                    <i class='bx bxs-star-half'></i>
+                    <i class='bx bxs-star'></i>
                 </div>
             </div>
 
@@ -241,8 +183,8 @@
                     <i class='bx bxs-star'></i>
                     <i class='bx bxs-star'></i>
                     <i class='bx bxs-star'></i>
-                    <i class='bx bxs-star'></i>
                     <i class='bx bxs-star-half'></i>
+
                 </div>
             </div>
 
@@ -260,45 +202,11 @@
                     <i class='bx bxs-star'></i>
                     <i class='bx bxs-star'></i>
                     <i class='bx bxs-star'></i>
-                    <i class='bx bxs-star-half'></i>
+                    <i class='bx bxs-star'></i>
                 </div>
             </div>
 
-            <div class="box">
-                <img src="./images/jean.jpg" alt="" class="quote">
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                    Ut porttitor leo a diam sollicitudin tempor id eu nisl. Scelerisque eleifend donec pretium vulputate. Nulla aliquet porttitor lacus luctus. 
-                    Et egestas quis ipsum suspendisse ultrices. Auctor eu augue ut lectus arcu bibendum at varius vel. 
-                </p>
-                <i class='bx bxs-quote-alt-right'></i>
-                <h3>jean doe</h3>
-                <div class="stars">
-                    <i class='bx bxs-star'></i>
-                    <i class='bx bxs-star'></i>
-                    <i class='bx bxs-star'></i>
-                    <i class='bx bxs-star'></i>
-                    <i class='bx bxs-star-half'></i>
-                </div>
-            </div>
-
-            <div class="box">
-                <img src="./images/jik.jpg" alt="" class="quote">
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                    Ut porttitor leo a diam sollicitudin tempor id eu nisl. Scelerisque eleifend donec pretium vulputate. Nulla aliquet porttitor lacus luctus. 
-                    Et egestas quis ipsum suspendisse ultrices. Auctor eu augue ut lectus arcu bibendum at varius vel. 
-                </p>
-                <i class='bx bxs-quote-alt-right'></i>
-                <h3>jik doe</h3>
-                <div class="stars">
-                    <i class='bx bxs-star'></i>
-                    <i class='bx bxs-star'></i>
-                    <i class='bx bxs-star'></i>
-                    <i class='bx bxs-star'></i>
-                    <i class='bx bxs-star-half'></i>
-                </div>
-            </div>
+            
         </div>
     </section>
 
@@ -308,20 +216,17 @@
         <div class="row">
 
             <form action="">
-                <h3>Message us</h3>
+                <h3>Book your table now!</h3>
                 <div class="inputBox">
-                    <span><i class='bx bxs-user'></i></span>
                     <input type="text" placeholder="Your Name">
                 </div>
                 <div class="inputBox">
-                    <span><i class='bx bx-envelope'></i></span>
                     <input type="text" placeholder="Your Email">
                 </div>
                 <div class="inputBox">
-                    <span><i class='bx bxs-phone'></i></span>
                     <input type="number" placeholder="Your Phone Number">
                 </div>
-                <input type="submit" value="contact now" class="btn">
+                <button type="submit" class="btn"> Contact now </button>
             </form>
 
 
@@ -352,6 +257,8 @@
         <div class="credit">developed by <span> Vier </span> | All rights reserved</div>
 
     </footer>
-    
+
+            
+
 </body>
 </html>
