@@ -22,30 +22,5 @@
         "name":" LD04 C4",
         "price": 200,
         "image": "images/menu-1.jpg"
-    },
-    {
-        "id": 5,
-        "name":" LD05 C5",
-        "price": 300,
-        "image": "images/menu-2.jpg"
-    },
-    {
-        "id": 6,
-        "name":" LD06 C6",
-        "price": 200,
-        "image": "images/menu-3.jpg"
-    },
-    {
-        "id": 7,
-        "name":" LD07 C7",
-        "price": 200,
-        "image": "images/menu-1.jpg"
-    },
-    {
-        "id": 8,
-        "name":" LD08 C8",
-        "price": 200,
-        "image": "images/menu-2.jpg"
     }
-    
 ]
